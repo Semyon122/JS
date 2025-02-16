@@ -1,0 +1,16 @@
+let x = 1,
+    res;
+switch (x){
+  case "number":
+    res="x-число";
+    break; 
+  case "string":
+    res="x-строка";
+    break;
+  case "boolean":
+    res="x-логический";
+    break;
+  default:
+    res="Тип x не определён";
+}
+console.log(res);
